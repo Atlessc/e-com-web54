@@ -1,0 +1,14 @@
+@tailwind
+@layer base {
+  .AppContainer {
+    @apply relative w-full h-screen;
+  }
+
+  .NavContainer {
+    @apply fixed top-0 w-full h-16 bg-#212121 shadow-md;
+  }
+
+  .nav-btn {
+    @apply flex items-center justify-center w-16 h-16;
+  }
+}
