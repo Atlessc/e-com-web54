@@ -1,15 +1,17 @@
+import './styles.css'
+
 function InPersonShop() {
 
     return (
-      <div className='ShopContainer'>
+      <div className='shop-container'>
         <div>
           <NavBar />
         </div>
         <div>
-            <div className="title">Shop</div>
+            <div className="shop-title">Shop</div>
         </div>
         <div>
-            
+
         </div>
   
       </div>

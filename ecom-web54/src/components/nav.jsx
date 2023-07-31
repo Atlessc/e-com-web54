@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import '../styles/styles.css';
+import './styles.css';
 
 const NavBar = () =>{
     const [showMenu, setShowMenu] = useState(false);
-    
+
 
     const ToggleMenu = () => {
         setShowMenu(!showMenu);
