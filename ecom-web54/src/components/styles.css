@@ -8,7 +8,7 @@
   }
 
   .NavContainer {
-    @apply fixed top-0 w-full h-16 bg-#212121 shadow-md;
+    @apply fixed top-0 w-full h-16 bg-#212121 shadow-md flex flex-row items-center justify-center;
   }
 
   .nav-btn {

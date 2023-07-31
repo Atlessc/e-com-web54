@@ -21,10 +21,9 @@ const NavBar = () =>{
                 </div>
             : null
             }
-            
             <div onClick={ToggleMenu} className="nav-btn">
                 {
-                    showMenu ? "Menu" : "Close"
+                    showMenu ? "Close" : "Menu"
                 }
             </div>
         </div>
