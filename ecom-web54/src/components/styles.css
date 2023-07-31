@@ -1,4 +1,7 @@
-@tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   .AppContainer {
     @apply relative w-full h-screen;
